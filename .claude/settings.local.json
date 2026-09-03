@@ -2,7 +2,26 @@
   "permissions": {
     "allow": [
       "Bash(git --version)",
-      "Bash(winget --version)"
+      "Bash(winget --version)",
+      "Bash(python -m pip show sentence-transformers)",
+      "Bash(python -c \"import sys; print\\(sys.executable\\)\")",
+      "Bash(python -m pip install sentence-transformers)",
+      "Bash(python embeddings.py)",
+      "Bash(docker --version)",
+      "Bash(docker compose *)",
+      "Bash(ollama --version)",
+      "Bash(ollama list *)",
+      "PowerShell(Get-Command *)",
+      "Bash(./venv/Scripts/python.exe -m pip list)",
+      "Bash(./venv/Scripts/python.exe -m pip install qdrant-client==1.16.1 rank_bm25==0.2.2 python-multipart==0.0.20)",
+      "Bash(docker info *)",
+      "Bash(powershell -Command \"Start-Process 'C:\\\\Program Files\\\\Docker\\\\Docker\\\\Docker Desktop.exe'\" 2>&1)",
+      "Bash(docker run *)",
+      "Bash(curl *)",
+      "Bash(./venv/Scripts/python.exe src/ingest_pipeline.py)",
+      "Bash(\"./venv/Scripts/python.exe\" -m py_compile main.py src/*.py eval/run_eval.py)",
+      "Bash(\"./venv/Scripts/python.exe\" -m uvicorn main:app --host 127.0.0.1 --port 8123)",
+      "Bash(echo \"exit:$?\")"
     ]
   }
 }

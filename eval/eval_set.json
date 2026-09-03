@@ -1,0 +1,92 @@
+[
+  {
+    "id": "q1",
+    "question": "What SSH command does a programmer use to clone the webproject repository from a remote server?",
+    "expected_chunk_id": "Git Best Practices Guide.pdf_28_0",
+    "expected_source": "Git Best Practices Guide.pdf"
+  },
+  {
+    "id": "q2",
+    "question": "Which Git hook is used in the example to automatically deploy a website after a push?",
+    "expected_chunk_id": "Git Best Practices Guide.pdf_73_0",
+    "expected_source": "Git Best Practices Guide.pdf"
+  },
+  {
+    "id": "q3",
+    "question": "What commands are used to rebase onto and then commit back to an SVN repository from Git?",
+    "expected_chunk_id": "Git Best Practices Guide.pdf_63_1",
+    "expected_source": "Git Best Practices Guide.pdf"
+  },
+  {
+    "id": "q4",
+    "question": "In a Git tree object listing like '100644 blob a906cb README', what do the three columns before the filename represent?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_17_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  },
+  {
+    "id": "q5",
+    "question": "Which directory contains the shell scripts that Git invokes after commands such as commit?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_48_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  },
+  {
+    "id": "q6",
+    "question": "Where does Git create a permanent reference to an annotated tag such as v0.1?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_90_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  },
+  {
+    "id": "q7",
+    "question": "Why do Git users trust that SHA-1 hash collisions won't happen in practice?",
+    "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_32_0",
+    "expected_source": "Git Pocket Guide - A Working Introduction.pdf"
+  },
+  {
+    "id": "q8",
+    "question": "What is the Git process called that combines the contributions from different branches back together?",
+    "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_87_0",
+    "expected_source": "Git Pocket Guide - A Working Introduction.pdf"
+  },
+  {
+    "id": "q9",
+    "question": "What does the revision syntax 'release-4.1^{commit}' resolve to in Git?",
+    "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_140_0",
+    "expected_source": "Git Pocket Guide - A Working Introduction.pdf"
+  },
+  {
+    "id": "q10",
+    "question": "What markers does Git insert into a file to show the start, break point, and end of a merge conflict?",
+    "expected_chunk_id": "Git Best Practices Guide.pdf_52_0",
+    "expected_source": "Git Best Practices Guide.pdf"
+  },
+  {
+    "id": "q11",
+    "question": "What Git command shows the commit history of a repository?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_63_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  },
+  {
+    "id": "q12",
+    "question": "What command creates a patch file comparing the master and experiment branches?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_75_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  },
+  {
+    "id": "q13",
+    "question": "What does a plain 'git rebase' with no arguments actually expand to when tracking origin/master?",
+    "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_170_0",
+    "expected_source": "Git Pocket Guide - A Working Introduction.pdf"
+  },
+  {
+    "id": "q14",
+    "question": "Which Python-based GUI tool for Linux provides pull, push, commit functions plus a diff viewer?",
+    "expected_chunk_id": "Git Best Practices Guide.pdf_87_0",
+    "expected_source": "Git Best Practices Guide.pdf"
+  },
+  {
+    "id": "q15",
+    "question": "In the integration-manager workflow, what does a developer do after making changes on their public fork?",
+    "expected_chunk_id": "Git Internals - PeepCode.pdf_104_0",
+    "expected_source": "Git Internals - PeepCode.pdf"
+  }
+]

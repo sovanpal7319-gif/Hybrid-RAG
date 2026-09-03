@@ -1,0 +1,55 @@
+services:
+  qdrant:
+    image: qdrant/qdrant:v1.16.1
+    ports:
+      - "6333:6333"
+    volumes:
+      - qdrant_storage:/qdrant/storage
+
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - QDRANT_URL=http://qdrant:6333
+      - QDRANT_COLLECTION=${QDRANT_COLLECTION:-rag_chunks}
+      # Ollama runs on the host, not in this compose stack (see README) --
+      # host.docker.internal reaches it from inside the app container.
+      - OLLAMA_BASE_URL=${OLLAMA_BASE_URL:-http://host.docker.internal:11434}
+      - OLLAMA_MODEL=${OLLAMA_MODEL:-llama3.2}
+      - EMBEDDING_MODEL_NAME=${EMBEDDING_MODEL_NAME:-BAAI/bge-small-en-v1.5}
+      - CHUNK_SIZE_TOKENS=${CHUNK_SIZE_TOKENS:-400}
+      - CHUNK_OVERLAP_TOKENS=${CHUNK_OVERLAP_TOKENS:-50}
+      - DEFAULT_TOP_K=${DEFAULT_TOP_K:-5}
+      - RRF_K=${RRF_K:-60}
+      - FUSION_CANDIDATE_POOL=${FUSION_CANDIDATE_POOL:-30}
+      - RERANK_TOP_N=${RERANK_TOP_N:-20}
+    depends_on:
+      - qdrant
+    volumes:
+      # Chunk store + source PDFs persist on the host across restarts.
+      - ./data:/app/data
+      # Embedding/reranker model weights are large downloads on first use;
+      # caching them in a named volume avoids re-downloading on every
+      # container recreate.
+      - hf_cache:/root/.cache/huggingface
+    extra_hosts:
+      # Makes host.docker.internal resolve on native Linux Docker Engine too
+      # (Docker Desktop on Windows/Mac already supports it natively).
+      - "host.docker.internal:host-gateway"
+
+  frontend:
+    build: ./frontend
+    ports:
+      - "5000:5000"
+    environment:
+      # Reaches the FastAPI service by its compose service name, not
+      # localhost -- these are separate containers on the compose network.
+      - BACKEND_URL=http://app:8000
+      - FRONTEND_DEBUG=false
+    depends_on:
+      - app
+
+volumes:
+  qdrant_storage:
+  hf_cache:

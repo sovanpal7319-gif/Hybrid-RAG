@@ -1,0 +1,408 @@
+{
+  "vector": {
+    "mode": "vector",
+    "top_k": 5,
+    "num_questions": 15,
+    "hit_rate": 0.8666666666666667,
+    "results": [
+      {
+        "id": "q1",
+        "question": "What SSH command does a programmer use to clone the webproject repository from a remote server?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_28_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_28_0",
+          "Git Best Practices Guide.pdf_29_0",
+          "Git Internals - PeepCode.pdf_106_0",
+          "Git Internals - PeepCode.pdf_95_1",
+          "Git Pocket Guide - A Working Introduction.pdf_97_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q2",
+        "question": "Which Git hook is used in the example to automatically deploy a website after a push?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_73_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_73_0",
+          "Git Pocket Guide - A Working Introduction.pdf_214_0",
+          "Git Best Practices Guide.pdf_75_0",
+          "Git Best Practices Guide.pdf_71_0",
+          "Git Best Practices Guide.pdf_39_1"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q3",
+        "question": "What commands are used to rebase onto and then commit back to an SVN repository from Git?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_63_1",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_63_1",
+          "Git Pocket Guide - A Working Introduction.pdf_168_0",
+          "Git Internals - PeepCode.pdf_86_0",
+          "Git Best Practices Guide.pdf_11_0",
+          "Git Best Practices Guide.pdf_60_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q4",
+        "question": "In a Git tree object listing like '100644 blob a906cb README', what do the three columns before the filename represent?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_17_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_28_0",
+          "Git Internals - PeepCode.pdf_67_0",
+          "Git Internals - PeepCode.pdf_23_0",
+          "Git Pocket Guide - A Working Introduction.pdf_25_0",
+          "Git Internals - PeepCode.pdf_66_0"
+        ],
+        "hit": false
+      },
+      {
+        "id": "q5",
+        "question": "Which directory contains the shell scripts that Git invokes after commands such as commit?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_48_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_48_0",
+          "Git Pocket Guide - A Working Introduction.pdf_15_0",
+          "Git Pocket Guide - A Working Introduction.pdf_222_0",
+          "Git Pocket Guide - A Working Introduction.pdf_56_0",
+          "Git Internals - PeepCode.pdf_62_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q6",
+        "question": "Where does Git create a permanent reference to an annotated tag such as v0.1?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_90_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_90_0",
+          "Git Pocket Guide - A Working Introduction.pdf_210_0",
+          "Git Best Practices Guide.pdf_40_0",
+          "Git Pocket Guide - A Working Introduction.pdf_211_0",
+          "Git Internals - PeepCode.pdf_89_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q7",
+        "question": "Why do Git users trust that SHA-1 hash collisions won't happen in practice?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_32_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_32_0",
+          "Git Pocket Guide - A Working Introduction.pdf_33_0",
+          "Git Pocket Guide - A Working Introduction.pdf_32_1",
+          "Git Pocket Guide - A Working Introduction.pdf_31_0",
+          "Git Pocket Guide - A Working Introduction.pdf_30_1"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q8",
+        "question": "What is the Git process called that combines the contributions from different branches back together?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_87_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_171_1",
+          "Git Pocket Guide - A Working Introduction.pdf_87_0",
+          "Git Pocket Guide - A Working Introduction.pdf_174_0",
+          "Git Pocket Guide - A Working Introduction.pdf_20_0",
+          "Git Pocket Guide - A Working Introduction.pdf_23_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q9",
+        "question": "What does the revision syntax 'release-4.1^{commit}' resolve to in Git?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_140_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_189_0",
+          "Git Internals - PeepCode.pdf_79_0",
+          "Git Best Practices Guide.pdf_40_0",
+          "Git Pocket Guide - A Working Introduction.pdf_155_1",
+          "Git Pocket Guide - A Working Introduction.pdf_79_0"
+        ],
+        "hit": false
+      },
+      {
+        "id": "q10",
+        "question": "What markers does Git insert into a file to show the start, break point, and end of a merge conflict?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_52_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_52_0",
+          "Git Pocket Guide - A Working Introduction.pdf_124_0",
+          "Git Pocket Guide - A Working Introduction.pdf_126_0",
+          "Git Pocket Guide - A Working Introduction.pdf_115_0",
+          "Git Pocket Guide - A Working Introduction.pdf_127_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q11",
+        "question": "What Git command shows the commit history of a repository?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_63_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_59_1",
+          "Git Pocket Guide - A Working Introduction.pdf_145_0",
+          "Git Internals - PeepCode.pdf_115_0",
+          "Git Internals - PeepCode.pdf_63_0",
+          "Git Best Practices Guide.pdf_44_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q12",
+        "question": "What command creates a patch file comparing the master and experiment branches?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_75_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_75_0",
+          "Git Best Practices Guide.pdf_70_0",
+          "Git Best Practices Guide.pdf_98_1",
+          "Git Best Practices Guide.pdf_68_0",
+          "Git Best Practices Guide.pdf_30_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q13",
+        "question": "What does a plain 'git rebase' with no arguments actually expand to when tracking origin/master?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_170_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_170_0",
+          "Git Pocket Guide - A Working Introduction.pdf_218_0",
+          "Git Internals - PeepCode.pdf_81_0",
+          "Git Pocket Guide - A Working Introduction.pdf_171_0",
+          "Git Pocket Guide - A Working Introduction.pdf_82_1"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q14",
+        "question": "Which Python-based GUI tool for Linux provides pull, push, commit functions plus a diff viewer?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_87_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_87_0",
+          "Git Pocket Guide - A Working Introduction.pdf_230_1",
+          "Git Best Practices Guide.pdf_88_0",
+          "Git Pocket Guide - A Working Introduction.pdf_215_0",
+          "Git Best Practices Guide.pdf_91_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q15",
+        "question": "In the integration-manager workflow, what does a developer do after making changes on their public fork?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_104_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_110_0",
+          "Git Internals - PeepCode.pdf_36_0",
+          "Git Internals - PeepCode.pdf_104_0",
+          "Git Best Practices Guide.pdf_82_0",
+          "Git Internals - PeepCode.pdf_99_0"
+        ],
+        "hit": true
+      }
+    ]
+  },
+  "hybrid": {
+    "mode": "hybrid",
+    "top_k": 5,
+    "num_questions": 15,
+    "hit_rate": 1.0,
+    "results": [
+      {
+        "id": "q1",
+        "question": "What SSH command does a programmer use to clone the webproject repository from a remote server?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_28_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_28_0",
+          "Git Best Practices Guide.pdf_27_0",
+          "Git Best Practices Guide.pdf_29_0",
+          "Git Best Practices Guide.pdf_32_0",
+          "Git Pocket Guide - A Working Introduction.pdf_98_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q2",
+        "question": "Which Git hook is used in the example to automatically deploy a website after a push?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_73_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_73_0",
+          "Git Best Practices Guide.pdf_70_0",
+          "Git Best Practices Guide.pdf_75_0",
+          "Git Pocket Guide - A Working Introduction.pdf_214_0",
+          "Git Best Practices Guide.pdf_72_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q3",
+        "question": "What commands are used to rebase onto and then commit back to an SVN repository from Git?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_63_1",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_63_1",
+          "Git Best Practices Guide.pdf_63_0",
+          "Git Best Practices Guide.pdf_59_0",
+          "Git Best Practices Guide.pdf_62_0",
+          "Git Best Practices Guide.pdf_60_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q4",
+        "question": "In a Git tree object listing like '100644 blob a906cb README', what do the three columns before the filename represent?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_17_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_17_0",
+          "Git Internals - PeepCode.pdf_66_0",
+          "Git Pocket Guide - A Working Introduction.pdf_25_0",
+          "Git Pocket Guide - A Working Introduction.pdf_186_0",
+          "Git Internals - PeepCode.pdf_67_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q5",
+        "question": "Which directory contains the shell scripts that Git invokes after commands such as commit?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_48_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_48_0",
+          "Git Pocket Guide - A Working Introduction.pdf_214_0",
+          "Git Internals - PeepCode.pdf_47_0",
+          "Git Best Practices Guide.pdf_70_0",
+          "Git Pocket Guide - A Working Introduction.pdf_56_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q6",
+        "question": "Where does Git create a permanent reference to an annotated tag such as v0.1?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_90_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_90_0",
+          "Git Internals - PeepCode.pdf_21_0",
+          "Git Internals - PeepCode.pdf_91_0",
+          "Git Internals - PeepCode.pdf_89_0",
+          "Git Best Practices Guide.pdf_39_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q7",
+        "question": "Why do Git users trust that SHA-1 hash collisions won't happen in practice?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_32_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_32_0",
+          "Git Pocket Guide - A Working Introduction.pdf_31_0",
+          "Git Pocket Guide - A Working Introduction.pdf_33_0",
+          "Git Pocket Guide - A Working Introduction.pdf_32_1",
+          "Git Pocket Guide - A Working Introduction.pdf_30_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q8",
+        "question": "What is the Git process called that combines the contributions from different branches back together?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_87_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_87_0",
+          "Git Pocket Guide - A Working Introduction.pdf_113_0",
+          "Git Pocket Guide - A Working Introduction.pdf_12_0",
+          "Git Best Practices Guide.pdf_33_0",
+          "Git Pocket Guide - A Working Introduction.pdf_11_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q9",
+        "question": "What does the revision syntax 'release-4.1^{commit}' resolve to in Git?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_140_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_140_0",
+          "Git Best Practices Guide.pdf_52_0",
+          "Git Pocket Guide - A Working Introduction.pdf_85_0",
+          "Git Pocket Guide - A Working Introduction.pdf_29_0",
+          "Git Pocket Guide - A Working Introduction.pdf_38_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q10",
+        "question": "What markers does Git insert into a file to show the start, break point, and end of a merge conflict?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_52_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_52_0",
+          "Git Pocket Guide - A Working Introduction.pdf_123_0",
+          "Git Pocket Guide - A Working Introduction.pdf_118_0",
+          "Git Pocket Guide - A Working Introduction.pdf_123_1",
+          "Git Pocket Guide - A Working Introduction.pdf_124_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q11",
+        "question": "What Git command shows the commit history of a repository?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_63_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_145_0",
+          "Git Internals - PeepCode.pdf_63_0",
+          "Git Best Practices Guide.pdf_44_0",
+          "Git Best Practices Guide.pdf_59_1",
+          "Git Best Practices Guide.pdf_47_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q12",
+        "question": "What command creates a patch file comparing the master and experiment branches?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_75_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_75_0",
+          "Git Best Practices Guide.pdf_69_0",
+          "Git Best Practices Guide.pdf_30_0",
+          "Git Internals - PeepCode.pdf_74_0",
+          "Git Best Practices Guide.pdf_38_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q13",
+        "question": "What does a plain 'git rebase' with no arguments actually expand to when tracking origin/master?",
+        "expected_chunk_id": "Git Pocket Guide - A Working Introduction.pdf_170_0",
+        "retrieved_chunk_ids": [
+          "Git Pocket Guide - A Working Introduction.pdf_170_0",
+          "Git Pocket Guide - A Working Introduction.pdf_106_0",
+          "Git Pocket Guide - A Working Introduction.pdf_108_0",
+          "Git Pocket Guide - A Working Introduction.pdf_23_0",
+          "Git Pocket Guide - A Working Introduction.pdf_218_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q14",
+        "question": "Which Python-based GUI tool for Linux provides pull, push, commit functions plus a diff viewer?",
+        "expected_chunk_id": "Git Best Practices Guide.pdf_87_0",
+        "retrieved_chunk_ids": [
+          "Git Best Practices Guide.pdf_87_0",
+          "Git Best Practices Guide.pdf_98_0",
+          "Git Pocket Guide - A Working Introduction.pdf_230_0",
+          "Git Pocket Guide - A Working Introduction.pdf_215_0",
+          "Git Best Practices Guide.pdf_97_0"
+        ],
+        "hit": true
+      },
+      {
+        "id": "q15",
+        "question": "In the integration-manager workflow, what does a developer do after making changes on their public fork?",
+        "expected_chunk_id": "Git Internals - PeepCode.pdf_104_0",
+        "retrieved_chunk_ids": [
+          "Git Internals - PeepCode.pdf_104_0",
+          "Git Internals - PeepCode.pdf_99_0",
+          "Git Internals - PeepCode.pdf_110_0",
+          "Git Best Practices Guide.pdf_86_0",
+          "Git Internals - PeepCode.pdf_39_0"
+        ],
+        "hit": true
+      }
+    ]
+  }
+}
